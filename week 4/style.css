@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+
+.headerStyle{
+    display: block;
+    background-color: darkorange;
+}
+
+.headerStyle > h1{
+    margin: 10px 0 10px 10px;
+    width: 60%;
+    display: inline;
+}
+
+.headerStyle > nav{
+    margin: 15px 50px 10px 10px;
+    font-size: 17px;
+    float: right;
+}
+
+.headerStyle > nav span {
+    margin: 0 0 0 25px;
+}
+
+.headerStyle  nav span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerStyle  nav span a:hover{
+    text-shadow: black 0 1px 1px;
+}
+
+.tagline{
+    margin: 0;
+    padding-top: 200px;
+    text-align: center;
+    background: #ffffff url("https://i.ytimg.com/vi/mEBFswpYms4/maxresdefault.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.tagline p {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0 1px 1px;
+    font-size: 50px;
+    font-family: arial;
+}
+
+.tagline-form input[type=text]{
+    width: 20%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.tagline-form input[type=submit]{
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.tagline-form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.banners{
+    text-align: center;
+    padding: 0;
+    height: 320px;
+}
+
+.banners img{
+    margin: 0 10px;
+}
+
+.footer{
+    text-align: center;
+    background: #252525;
+    color: #f5f5f5;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+.grid-item {
+    text-align: center;
+    width: 100%;
+}
+
+
+.grid-item li{
+    text-align: left;
+    padding-left: 174px;
+}
+
+.loginForm{
+    background: #ffffff url("https://i.ytimg.com/vi/mEBFswpYms4/maxresdefault.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.loginForm label{
+    /*margin: 0 0 12px;*/
+    display: block;
+    font-size: 1.25em;
+    color: #217093;
+    font-weight: 700;
+    font-family: inherit;
+    margin: 0;
+}
+
+.loginInput{
+    width: 67%;
+    padding: 5px 20px;
+    margin: 0 0 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.loginButton{
+    width: 35%;
+    background-color: #217093;
+    color: white;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.loginButton:hover{
+    background-color: #217060;
+}
+
+.card{
+    margin: 20px auto;
+    width: 30%;
+    border: 1px solid gray;
+    padding: 30px;
+    box-shadow: black 0 1px 1px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.card input{
+    background: #f5f5f5;
+    background-blend-mode: lighten;
+}
