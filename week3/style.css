@@ -1,0 +1,9 @@
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+.grid-item {
+    text-align: center;
+    width: 100%;
+}
