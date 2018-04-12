@@ -5,10 +5,9 @@
     <title>Food Pandas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-
-    <script src="validation.js"></script>
 </head>
 <body>
+
 <header class="headerStyle">
     <h1>
         <img src="logo.png" alt="logo">
@@ -31,35 +30,18 @@
 
 <main>
     <div class="grid-container "  style="grid-template-columns: auto">
-        <form name="signup" class="grid-item loginForm" method="post">
+        <form class="grid-item loginForm">
             <div class="card">
                 <div class="inputGroup inputGroup1">
-                    <label for="firstname" style="padding-right: 178px;">First Name</label>
-                    <input class = "loginInput" type="text" name="firstname" id="firstname" maxlength="256" required/>
-                </div>
-                <div class="inputGroup inputGroup1">
-                    <label for="lastname" style="padding-right: 178px;">Last Name</label>
-                    <input class = "loginInput" type="text" name="lastname" id="lastname" maxlength="256" required/>
-                </div>
-                <div class="inputGroup inputGroup1">
-                    <label for="mobile" style="padding-right: 178px;">Mobile No.</label>
-                    <input class = "loginInput" type="text" name="mobile" id="mobile" maxlength="256" required/>
-                </div>
-
-                <div class="inputGroup inputGroup1">
-                    <label for="email" style="padding-right: 220px;">Email</label>
-                    <input class = "loginInput" type="text" name="email" id="email" maxlength="256" required/>
+                    <label for="email1" style="padding-right: 220px;">Email</label>
+                    <input class = "loginInput" type="text" id="email" maxlength="256"/>
                 </div>
                 <div class="inputGroup inputGroup2">
                     <label for="password" style="padding-right: 185px;">Password</label>
-                    <input type="password" id="password" name="password" class = "loginInput" required/>
-                </div>
-                <div class="inputGroup inputGroup2">
-                    <label for="password" style="padding-right: 113px;">Confirm Password</label>
-                    <input type="password" id="repassword" name="repassword" class = "loginInput" required/>
+                    <input type="password" id="password" class = "loginInput" />
                 </div>
                 <div class="inputGroup inputGroup3">
-                    <input type="submit" id="formSubmit" class="loginButton"/>
+                    <button class="loginButton">Log in</button>
                 </div>
             </div>
         </form>
@@ -167,7 +149,6 @@
         <li><a href="#"> Food panda India </a> &nbsp;&nbsp;&nbsp;</li>
     </ul>
 
-    </footer>
-
+</footer>
 </body>
 </html>
